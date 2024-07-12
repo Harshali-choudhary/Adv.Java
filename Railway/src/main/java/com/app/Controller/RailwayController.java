@@ -62,15 +62,6 @@ public class RailwayController<ApiResponse> {
 		return ResponseEntity.ok("Details : "+r);
 	}
 	
-//	@GetMapping("/search/{category}")
-//	public ResponseEntity<String> search(@PathVariable String category)
-//	{
-//		System.out.println("in search controller method");
-//		Railway rail=railService.GetbyCategory(category);
-//		if(rail!=null)
-//		return ResponseEntity.ok("Search by category "+rail.getName());
-//		else
-//			return ResponseEntity.notFound().build();
-//	}
+
 	
 }
