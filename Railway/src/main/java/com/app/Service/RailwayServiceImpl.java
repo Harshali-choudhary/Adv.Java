@@ -61,14 +61,4 @@ public class RailwayServiceImpl implements RailwayService{
 	 return o.orElseThrow(()->new RailwayException("Invalid railway id"));
 	}
 
-//	@Override
-//	public Railway GetbyCategory(String category) {
-//		List<Railway> railways=new ArrayList<Railway>();
-//        return railways.stream()
-//                .filter(railway -> railway.getCategory().equals(category))
-//                .findFirst()
-//                .orElse(null);
-//    }
-	
-
 }
